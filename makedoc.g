@@ -36,7 +36,21 @@ AutoDoc(
                 ),
             ),
         ),
-        autodoc := true,    # TODO: autodoc is not in the package dependency list...
+        autodoc := rec(
+                     files := [
+                                "gap/D-ModulesForHomalg.gd",
+                                "gap/D-ModulesForHomalg.gi",
+                                "gap/DifferentialAction.gd",
+                                "gap/DifferentialAction.gi",
+                                "gap/D-Modules.gd",
+                                "gap/D-Modules.gi",
+                                "examples/doc/NumeratorOfDifferentialAction.g",
+                                "examples/doc/CoefficientsOfAnnihilatingOperators.g",
+                                "examples/doc/AnnihilatingOperators.g",
+                                "examples/doc/BasisOfAnnihilatingOperators.g",
+                                "examples/doc/OrderOfFirstEquality.g",
+                              ]
+                   ),    
         gapdoc := rec(
             main := "D-ModulesForHomalg",
         ),

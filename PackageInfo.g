@@ -27,7 +27,7 @@ Subtitle := "A homalg based package for D-modules",
 ##  See '?Extending: Version Numbers' in GAP help for an explanation
 ##  of valid version numbers. For an automatic package distribution update
 ##  you must provide a new version number even after small changes.
-Version := "2014.03.05",
+Version := "2014.07.04",
 ##  Please adjust also the VERSION file in the package directory when
 ##  changing this.
 
@@ -253,6 +253,7 @@ Dependencies := rec(
                 [ "Modules", ">= 2013.09.19" ],
                 [ "GradedModules", ">= 2011.06.29" ],
                 [ "Sheaves", ">= 2012.09.22" ],
+                [ "AutoDoc", ">= 2014.06.26" ],
                 [ "GAPDoc", ">= 1.0" ] ],
   # without these the package will issue a warning while loading
   # SuggestedOtherPackages := [],
